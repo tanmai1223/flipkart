@@ -11,7 +11,7 @@ body {
 }
 
 #miniform{
-  display: none;
+  display: none !important;
 }
 
 .actions {
@@ -25,6 +25,8 @@ body {
 }
 #top {
   overflow: visible !important;
+  gap: 50px;
+  padding: 0 70px;
 }
 
 .dropdown:hover > .dropdown-menu {
@@ -165,8 +167,10 @@ body {
   #profile{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
   }
-  #profile p{
+  #hide{
     display: none;
   }
   .navbar .container-fluid {
@@ -208,13 +212,16 @@ body {
     overflow-y: hidden !important;  /* hide vertical scroll */
     white-space: nowrap;            /* stop wrapping */
     justify-content: flex-start !important; /* remove spacing issue */
-    gap: 25px; /* optional spacing */
+    gap: 25px;
+     /* optional spacing */
+     padding: 10px ;
   }
 
   #top > span {
     flex: 0 0 auto;  /* each item keeps its size */
   }
  #miniform{
+  display: block !important;
   margin: auto;
   margin-top: 25px;
   width: 450px;
