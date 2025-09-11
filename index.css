@@ -157,12 +157,18 @@ body {
   body{
     background-color: white;
   }
+  .navbar{
+    width: 100%;
+    margin: 10px !important;
+    padding: 0px !important;
+    top: 1% !important;
+  }
   .banner {
     display: none;
   }
   #carouselIndicators {
-    width: 93%;
-    margin: auto;
+    width: 100%;
+    margin: 10px;
   }
   #profile{
     display: flex;
@@ -230,21 +236,23 @@ body {
   display: none !important;
  }
   #boe {
-    width: 95%;
-    margin: auto;
+    width: 100%;
+    margin: 10px;
   }
   #bftm {
-    width: 93%;
-    margin: auto;
+    width: 100%;
+    margin: 10px;
   }
   #dftmp {
-    gap: 16px;
+    gap: 25px;
   }
   #poster1 {
-    width: 93%;
+    width: 100%;
   }
   #poster2 img {
-    width: 93%;
+    width: 100%;
+    margin-left: 20px !important;
+    padding: 0px !important;
   }
   .category-dropdown .dropdown-menu {
     display: none !important;
@@ -255,5 +263,9 @@ body {
 
   .category-dropdown .nav-link {
     pointer-events: none;
+  }
+
+  .carousel-indicators{
+    display: none;
   }
 }
